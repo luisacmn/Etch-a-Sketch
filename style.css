@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(238, 238, 238);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#main{
+    width: 400px;
+    height: 400px;
+    display: grid;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+}
+
+button{
+    margin: 20px;
+}
+
+p{
+    margin-top: 5px;
+}
+
